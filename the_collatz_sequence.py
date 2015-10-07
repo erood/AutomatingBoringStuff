@@ -10,6 +10,7 @@ calling collatz() on that number until the function returns the value 1.
 
 import sys
 
+
 def generate_next_collatz_number(number):
     if number % 2 == 0:
         return number // 2
@@ -34,4 +35,5 @@ def main():
         print(generated_number)
 
 
-main()
+if __name__ == "__main__":
+    main()
