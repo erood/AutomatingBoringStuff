@@ -8,3 +8,4 @@ This repository contains solutions for the practice projects and projects for th
 * Comma Code
 * Character Picture Grid
 * Fantasy Game Inventory
+* List to Dictionary Function for Fantasy Game Inventory
