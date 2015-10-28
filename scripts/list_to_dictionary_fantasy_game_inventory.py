@@ -1,3 +1,4 @@
+#! python3
 __author__ = 'm'
 
 """
@@ -23,5 +24,11 @@ def main():
     add_to_inventory(inventory, dragon_loot)
     display_inventory(inventory)
 
+
 if __name__ == "__main__":
-    main()
+    # main()
+
+    print("""This is a goodbye
+and is not the end of the world
+    because I am going to change it.
+    """)

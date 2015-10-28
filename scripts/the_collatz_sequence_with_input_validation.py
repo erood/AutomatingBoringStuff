@@ -1,3 +1,4 @@
+#! python3
 __author__ = 'm'
 
 """
@@ -9,7 +10,6 @@ calling collatz() on that number until the function returns the value 1.
 """
 
 import sys
-
 
 def generate_next_collatz_number(number):
     if number % 2 == 0:
