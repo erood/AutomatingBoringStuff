@@ -9,3 +9,6 @@ This repository contains solutions for the practice projects and projects for th
 * Character Picture Grid
 * Fantasy Game Inventory
 * List to Dictionary Function for Fantasy Game Inventory
+* Password Locker
+* Add Bullets to Wiki Markup
+* Table Printer
