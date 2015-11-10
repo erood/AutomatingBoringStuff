@@ -1,5 +1,5 @@
 #! python3
-# fantasy_game_inventory.py -  takes a dictionary and prints its contents in value key format
+# fantasy_game_inventory.py -  contains functions to add a list of items to a dictionary and print it.
 __author__ = 'm'
 
 
@@ -13,9 +13,16 @@ def display_inventory(inventory):
     print("Total number of items: " + str(total_number_of_items))
 
 
+def add_to_inventory(inventory, items_to_add):
+    for item in items_to_add:
+        inventory[item] = inventory.get(item, 0) + 1
+
+
 def main():
-    stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
-    display_inventory(stuff)
+    inventory = {'gold coin': 42, 'rope': 1}
+    dragon_loot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+    add_to_inventory(inventory, dragon_loot)
+    display_inventory(inventory)
 
 
 if __name__ == "__main__":
