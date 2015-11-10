@@ -12,3 +12,6 @@ This repository contains solutions for the practice projects and projects for th
 * Password Locker
 * Add Bullets to Wiki Markup
 * Table Printer
+* Phone Number and Email Address Extractor
+* Strong Password Detection
+* Regex Version of strip()
