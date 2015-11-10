@@ -1,25 +1,7 @@
 #! python3
-__author__ = 'm'
+# picture_grid.py - this program prints a picture character stored in a multidimensional array.
 
-"""
-Having the list of lists
-grid = [['.', '.', '.', '.', '.', '.'],
-        ['.', 'O', 'O', '.', '.', '.'],
-        ['O', 'O', 'O', 'O', '.', '.'],
-        ['O', 'O', 'O', 'O', 'O', '.'],
-        ['.', 'O', 'O', 'O', 'O', 'O'],
-        ['O', 'O', 'O', 'O', 'O', '.'],
-        ['O', 'O', 'O', 'O', '.', '.'],
-        ['.', 'O', 'O', '.', '.', '.'],
-        ['.', '.', '.', '.', '.', '.']]
-print the figure
-..OO.OO..
-.OOOOOOO.
-.OOOOOOO.
-..OOOOO..
-...OOO...
-....O....
-"""
+__author__ = 'm'
 
 
 def main():
