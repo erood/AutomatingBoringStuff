@@ -1,7 +1,8 @@
 #! python3.4
-# phone_number_and_email_extractor.py - Finds phone number and email addresses on the clipboard.
+# phone_and_email.py - Finds phone number and email addresses on the clipboard.
 
-import pyperclip, re
+import pyperclip
+import re
 
 
 def main():

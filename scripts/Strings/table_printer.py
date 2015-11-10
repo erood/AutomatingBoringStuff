@@ -4,8 +4,8 @@
 __author__ = 'm'
 
 table_data = [['apples', 'oranges', 'cherries', 'banana'],
-             ['Alice', 'Bob', 'Carol', 'David'],
-             ['dogs', 'cats', 'moose', 'goose']]
+              ['Alice', 'Bob', 'Carol', 'David'],
+              ['dogs', 'cats', 'moose', 'goose']]
 
 
 def get_max_column_widths_of_a_table(table):
