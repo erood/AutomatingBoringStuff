@@ -2,7 +2,6 @@
 # random_quiz_generator.py - creates quizzes with questions and answers in random order, along with the answer key.
 
 import random
-import sys
 
 NUMBER_OF_QUIZZES = 35
 
