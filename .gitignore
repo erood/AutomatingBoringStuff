@@ -103,3 +103,6 @@ docs/_build/
 # PyBuilder
 target/
 A Testing Folder/
+
+# Generated files in project
+RWFiles/capital*
